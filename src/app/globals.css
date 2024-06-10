@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-display: swap;
+  font-family: "Supply";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../public/fonts/PPSupplyMono-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Supply";
+  line-height-step: 0;
+  font-weight: 500;
+  src: url("../../public/fonts/PPSupplyMono-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Supply";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../public/fonts/PPSupplyMono-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Supply";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../../public/fonts/PPSupplyMono-Ultralight.otf") format("opentype");
+}
+
+@layer base {
+  :root {
+    --background: #001ebe;
+    --chakra-font-family: "Chakra Petch";
+    --supply-font-family: "Supply";
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background;
+  }
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
