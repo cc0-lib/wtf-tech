@@ -30,6 +30,15 @@ const config: Config = {
         background: "var(--background)",
       },
     },
+    keyframes: {
+      "scroll-text": {
+        from: { transform: "translateX(0)" },
+        to: { transform: "translateX(calc(-100% - 4rem))" },
+      },
+    },
+    animation: {
+      "scroll-text": "scroll-text 30s linear infinite",
+    },
   },
   plugins: [],
 };
