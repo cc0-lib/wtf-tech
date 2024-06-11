@@ -3,23 +3,22 @@ import React from "react";
 export default function About() {
   return (
     <div className="grid min-h-screen w-full snap-start grid-cols-2 items-center justify-center">
-      <div className="flex h-full flex-col items-start justify-between pb-24 pl-32 pr-96 pt-40 text-secondary">
-        <p className="text-justify text-6xl font-normal uppercase leading-[5rem]">
-          a virtual build-hack where we fund top 5 projects rm2000 each
+      <div className="flex h-full flex-col items-start justify-between pb-24 pl-40 pr-60 pt-40 text-secondary">
+        <p className="text-justify text-6xl font-light uppercase leading-[5rem]">
+          a virtual build -hack where we fund top 5 projects rm2000 each
         </p>
-        <div className="flex flex-col items-center justify-center rounded-full border-[3px] px-7 pb-1 pt-3">
+        <div className="flex flex-col items-center justify-center rounded-full border-2 px-7 py-2">
           <p className="text-4xl">FUNDING</p>
         </div>
 
-        <div className="inline-flex items-end justify-end pb-1 pt-2 text-2xl tracking-wide">
-          <span className="mr-1 inline-flex items-end justify-end pt-1 leading-none">*</span>REGISTRATION LIMITED TO 10
-          PROJECTS
+        <div className="flex w-[34rem] items-end justify-start pb-1 pt-2 text-2xl font-light">
+          * REGISTRATION LIMITED TO 10 PROJECTS
         </div>
 
         <div className="text-2xl">
           <p>PUBLIC GOODS</p>
           <div className="flex items-center gap-2">
-            TECH <span className="mb-1 inline-flex h-1 w-full bg-secondary"></span>
+            TECH <span className="inline-flex h-1 w-full bg-secondary"></span>
           </div>
         </div>
       </div>
@@ -41,10 +40,10 @@ export default function About() {
             <rect x="323" width="7" height="5" fill="#001EBE" />
           </svg>
         </div>
-        <p className="text-justify text-6xl font-normal uppercase leading-[5rem]">
+        <p className="text-justify text-6xl font-light font-normal uppercase leading-[5rem]">
           Project must be open-source + provide solutions as a public good initiative.
         </p>
-        <div className="flex flex-col items-center justify-center rounded-full border-[3px] border-primary px-7 pb-1 pt-3">
+        <div className="flex flex-col items-center justify-center rounded-full border-2 border-primary px-7 py-2">
           <p className="text-4xl">CRITERIA</p>
         </div>
       </div>

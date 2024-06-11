@@ -11,8 +11,8 @@ const scopes = [
 
 export default function Scope() {
   return (
-    <div className="flex h-[700px] snap-start items-center justify-start gap-[200px] py-20 text-4xl uppercase text-secondary">
-      <div className="flex w-[800px] flex-col items-start justify-center pl-36">
+    <div className="flex h-[50vh] snap-start items-center justify-center gap-80 px-40 py-28 text-4xl font-light uppercase text-secondary">
+      <div className="flex h-full flex-col items-start justify-between">
         <svg width="97" height="97" viewBox="0 0 97 97" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             fill-rule="evenodd"
@@ -22,13 +22,14 @@ export default function Scope() {
           />
         </svg>
 
-        <div className="mt-24">
+        <div className="underline decoration-2 underline-offset-2">
           <div>CHOOSE</div>
           <div>YOUR</div>
           <div>SCOPE</div>
         </div>
       </div>
-      <div className="flex flex-col gap-1">
+
+      <div className="flex h-full flex-col justify-between">
         {scopes.map((item, index) => (
           <div key={index} className="inline-flex gap-x-4">
             <span>[ ]</span>

@@ -22,7 +22,8 @@ const config: Config = {
       colors: {
         primary: "#001EBE",
         secondary: "#E2E2E2",
-        "hack-semi-grey": "#727272",
+        "semi-grey": "#727272",
+        "dark-grey": "#3A3A3A",
       },
       backgroundColor: {
         primary: "#001EBE",
