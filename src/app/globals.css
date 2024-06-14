@@ -25,3 +25,7 @@
 .underline-small {
   text-decoration-thickness: 1px;
 }
+
+.debug {
+  @apply border border-red-500;
+}
