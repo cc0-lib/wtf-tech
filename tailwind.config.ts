@@ -18,17 +18,21 @@ const config: Config = {
       supply: ["var(--font-supply)"],
       chakra: ["var(--font-chakra)"],
     },
+    borderColor: {
+      primary: "var(--color-primary)",
+      secondary: "var(--color-secondary)",
+      "semi-grey": "var(--color-semi-grey)",
+      "dark-grey": "var(--color-dark-grey)",
+    },
     extend: {
       colors: {
-        primary: "#001EBE",
-        secondary: "#E2E2E2",
-        "semi-grey": "#727272",
-        "dark-grey": "#3A3A3A",
+        primary: "var(--color-primary)",
+        secondary: "var(--color-secondary)",
+        "semi-grey": "var(--color-semi-grey)",
+        "dark-grey": "var(--color-dark-grey)",
       },
       backgroundColor: {
-        primary: "#001EBE",
-        secondary: "#E2E2E2",
-        background: "var(--background)",
+        primary: "var(--color-primary)",
       },
     },
     keyframes: {

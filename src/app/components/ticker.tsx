@@ -14,8 +14,7 @@ export default function Ticker({
         "flex p-4 text-4xl uppercase",
         variant === "primary" && "bg-primary text-secondary",
         variant === "secondary" && "bg-secondary text-primary",
-      )}
-    >
+      )}>
       {Array(5)
         .fill(null)
         .map((index) => (

@@ -37,7 +37,7 @@ export default function Criteria() {
       </h4>
 
       <div className="ml-24 flex items-center justify-center px-32">
-        <div className="flex w-[24rem] flex-col items-start gap-6">
+        <div className="flex w-96 flex-col items-start gap-6">
           {criterias.slice(0, 3).map((item, index) => (
             <div key={index} className="inline-flex items-center justify-center gap-3 font-light">
               <span className="flex w-14 justify-center">

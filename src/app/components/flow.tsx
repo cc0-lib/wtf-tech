@@ -38,7 +38,7 @@ const flowSteps: FlowStep[] = [
 
 export default function Flow() {
   return (
-    <div className="flex h-screen flex-col items-center uppercase text-secondary">
+    <div className="flex flex-col items-center uppercase text-secondary">
       <div className="mt-10 flex w-full justify-end">
         <div className="mr-10 inline-flex flex-col gap-2 py-2">
           <div className="rounded-sm bg-secondary px-3 py-1 text-sm text-primary">Flow</div>
@@ -61,8 +61,8 @@ export default function Flow() {
         </div>
       </div> */}
       <div className="relative -top-14">
-        <div className="h-full w-full px-36">
-          <img src="./flow-diagram.svg" alt="" className="size-full object-contain" />
+        <div className="size-full px-36">
+          <Image src="./flow-diagram.svg" alt="" width={400} height={400} className="size-full object-contain" />
           {/* <Image src="./flow-diagram.svg" width={2000} height={700} alt="flow" className="object-cover" /> */}
         </div>
       </div>
