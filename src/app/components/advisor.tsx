@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Advisor() {
   return (
-    <div className="flex h-screen flex-col items-center justify-center bg-secondary uppercase">
+    <div className="flex h-screen snap-start flex-col items-center justify-center bg-secondary uppercase">
       <h1 className="text-6xl text-primary underline decoration-primary decoration-2 underline-offset-2">Advisor</h1>
 
       <div className="mt-20 flex gap-10 text-secondary">

@@ -31,7 +31,7 @@ const criterias = [
 
 export default function Criteria() {
   return (
-    <div className="flex flex-col justify-center bg-secondary px-40 pb-40 pt-32 text-4xl uppercase text-primary">
+    <div className="flex snap-center flex-col justify-center bg-secondary px-40 pb-40 pt-32 text-4xl uppercase text-primary">
       <h4 className="pb-20 text-center text-5xl underline decoration-primary decoration-2 underline-offset-2">
         Criteria
       </h4>

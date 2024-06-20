@@ -12,7 +12,7 @@ import Advisor from "./components/advisor";
 // TODO Smooth fullpage scroll
 export default function Home() {
   return (
-    <main className="h-screen overflow-x-hidden font-supply">
+    <main className="snap-y snap-proximity overflow-x-hidden font-supply">
       <Hero />
       <About />
       <Scope />

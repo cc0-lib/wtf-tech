@@ -14,14 +14,14 @@
 
 @layer utilities {
   .debug {
-    @apply border border-red-500;
+    @apply border-red-500 border;
   }
   .hidden-on-mobile {
-    @apply hidden md:block;
+    @apply hidden md:flex;
   }
 
   .hidden-on-desktop {
-    @apply block md:hidden;
+    @apply flex md:hidden;
   }
 }
 

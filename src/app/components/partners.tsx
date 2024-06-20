@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
 import { CC0Lib, DevTalk, KarbonKore, NounsBeyondScreen } from "./icons";
-import { Noggles } from "./fund";
+import { Noggles } from "./icons";
 import Link from "next/link";
 
 export default function Partners() {
   return (
-    <div className="flex flex-col items-center justify-center text-5xl uppercase text-secondary">
+    <div className="flex snap-center flex-col items-center justify-center text-5xl uppercase text-secondary">
       <div className="flex h-screen w-full flex-col">
         <div className="flex h-1/2 w-full flex-col items-center justify-center bg-secondary px-40 text-primary">
           <div className="flex w-full justify-between">
@@ -16,8 +16,7 @@ export default function Partners() {
             <Link
               href="https://karbon.wtf/tech-s01-reg"
               target="_blank"
-              className="inline-flex h-full items-center rounded-full bg-primary px-8 py-2 uppercase text-secondary"
-            >
+              className="inline-flex h-full items-center rounded-full bg-primary px-8 py-2 uppercase text-secondary">
               Register here
             </Link>
           </div>
@@ -26,10 +25,10 @@ export default function Partners() {
 
         <div className="flex h-[50vh] w-full flex-col items-center justify-center bg-secondary px-40 text-primary">
           <h1 className="inline-flex w-full text-5xl">Supported By</h1>
-          <div className="my-20 inline-flex h-20 w-full items-center justify-between px-40">
-            <NounsBeyondScreen className="size-[400px]" />
-            <CC0Lib className="size-full text-primary" />
-            <DevTalk className="size-full text-primary" />
+          <div className="my-20 inline-flex w-full items-center justify-between gap-20 px-96">
+            <NounsBeyondScreen className="" width={150} height={200} />
+            <CC0Lib className="" width={120} height={100} />
+            <DevTalk className=" " width={300} height={100} />
           </div>
         </div>
       </div>
