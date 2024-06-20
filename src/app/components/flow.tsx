@@ -39,7 +39,7 @@ const flowSteps: FlowStep[] = [
 export default function Flow() {
   return (
     <Fragment>
-      <div className="hidden h-screen flex-col items-center text-secondary md:flex">
+      <div className="hidden h-screen flex-col items-center text-secondary sm:flex">
         <div className="mt-10 flex w-full justify-end">
           <div className="mr-10 inline-flex flex-col gap-2 py-2">
             <div className="rounded-sm bg-secondary px-3 py-1 text-sm text-primary">Flow</div>
@@ -55,7 +55,7 @@ export default function Flow() {
         </div>
       </div>
 
-      <div className="flex h-screen flex-col items-center py-16 text-secondary md:hidden">
+      <div className="flex h-screen flex-col items-center py-16 text-secondary sm:hidden">
         <div className="inline-flex w-full justify-end px-10">
           <h1 className="text-4xl underline decoration-2 underline-offset-4">Flow</h1>
         </div>

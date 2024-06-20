@@ -17,11 +17,11 @@
     @apply border-red-500 border;
   }
   .hidden-on-mobile {
-    @apply hidden md:flex;
+    @apply hidden sm:flex;
   }
 
   .hidden-on-desktop {
-    @apply flex md:hidden;
+    @apply flex sm:hidden;
   }
 }
 

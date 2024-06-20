@@ -13,7 +13,7 @@ const scopes = [
 export default function Scope() {
   return (
     <Fragment>
-      <div className="hidden h-[50vh] items-center justify-center gap-80 px-40 py-28 text-4xl font-light text-secondary md:flex">
+      <div className="hidden h-[50vh] items-center justify-center gap-80 px-40 py-28 text-4xl font-light text-secondary sm:flex">
         <div className="flex h-full flex-col items-start justify-between">
           <ScopeShape />
           <div className="underline decoration-2 underline-offset-2">
@@ -33,7 +33,8 @@ export default function Scope() {
         </div>
       </div>
 
-      <div className="flex h-[50vh] flex-col items-center justify-center px-10 text-secondary md:hidden">
+      {/* Mobile */}
+      <div className="flex h-[50vh] flex-col items-center justify-center px-10 text-secondary sm:hidden">
         <div className="inline-flex w-full items-center justify-start gap-2">
           <ScopeShape className="mt-2 inline-flex size-10 self-start" />
           <div className="underline underline-offset-2">

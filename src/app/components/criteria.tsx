@@ -32,7 +32,7 @@ const criterias = [
 export default function Criteria() {
   return (
     <Fragment>
-      <div className="hidden flex-col justify-center bg-secondary px-40 pb-40 pt-32 text-4xl text-primary md:flex">
+      <div className="hidden flex-col justify-center bg-secondary px-40 pb-40 pt-32 text-4xl text-primary sm:flex">
         <h4 className="pb-20 text-center text-5xl underline decoration-primary decoration-2 underline-offset-2">
           Criteria
         </h4>
@@ -63,7 +63,7 @@ export default function Criteria() {
       </div>
 
       {/*  */}
-      <div className="flex h-[50vh] flex-col items-center justify-center bg-secondary px-10 text-primary md:hidden">
+      <div className="flex h-[50vh] flex-col items-center justify-center bg-secondary px-10 text-primary sm:hidden">
         <h1 className="inline-flex w-full justify-end text-xl underline underline-offset-2">Criteria</h1>
 
         <div className="flex h-2/3 w-full flex-col justify-center gap-4">

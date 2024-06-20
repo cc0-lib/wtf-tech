@@ -8,7 +8,7 @@ import Ticker from "./ticker";
 export default function Partners() {
   return (
     <Fragment>
-      <div className="hidden flex-col items-center justify-center text-5xl text-secondary md:flex">
+      <div className="hidden flex-col items-center justify-center text-5xl text-secondary sm:flex">
         <div className="flex h-screen w-full flex-col">
           <div className="flex h-1/2 w-full flex-col items-center justify-center bg-secondary px-40 text-primary">
             <div className="flex w-full justify-between">
@@ -61,10 +61,10 @@ export default function Partners() {
       </div>
 
       {/* Mobile */}
-      <div className="flex h-screen flex-col justify-center gap-8 bg-secondary text-primary md:hidden">
+      <div className="flex h-screen flex-col justify-center gap-8 bg-secondary text-primary sm:hidden">
         <div className="flex flex-col items-start justify-between gap-4 px-10">
           <div className="min-w-[230px] text-justify text-2xl">What are you wating for?</div>
-          <p className="text-xxs inline-flex w-full">p/s: registration is limited to first 10 projects</p>
+          <p className="inline-flex w-full text-xxs">p/s: registration is limited to first 10 projects</p>
 
           <Link
             href="https://karbon.wtf/tech-s01-reg"
@@ -99,7 +99,7 @@ export default function Partners() {
               <KarbonKore className="size-6" />
             </div>
 
-            <div className="text-xxs mt-2 flex w-full justify-between">
+            <div className="mt-2 flex w-full justify-between text-xxs">
               <div>
                 <p>KARBON KORE SDN BHD</p>
                 <p>[1559675-X]</p>

@@ -13,7 +13,7 @@ export default function Ticker({
   return (
     <div
       className={cn(
-        "flex p-1 text-sm md:p-4 md:text-4xl",
+        "flex p-1 text-sm sm:p-4 sm:text-4xl",
         className,
         variant === "primary" && "bg-primary text-secondary",
         variant === "secondary" && "bg-secondary text-primary",

@@ -5,7 +5,7 @@ import { FundArt } from "./icons";
 
 export default function FundAdvisorsMobile() {
   return (
-    <div className="flex flex-col bg-secondary text-primary md:hidden">
+    <div className="flex flex-col bg-secondary text-primary sm:hidden">
       <div className="relative h-[300px] w-full">
         <h1 className="mt-4 pr-10 text-end text-2xl underline underline-offset-2">Funding</h1>
         <div className="flex w-full justify-start">
@@ -40,7 +40,7 @@ export default function FundAdvisorsMobile() {
               <div>KARBON</div>
               <div>KORE</div>
             </div>
-            <div className="text-xxs mt-4">
+            <div className="mt-4 text-xxs">
               <div>Team</div>
               <div>Karbon Kore</div>
             </div>
@@ -52,7 +52,7 @@ export default function FundAdvisorsMobile() {
             <div>TEKONG</div>
           </div>
 
-          <div className="text-xxs mt-4">
+          <div className="mt-4 text-xxs">
             <div>CEO</div>
             <div>AMANZ</div>
           </div>
@@ -62,7 +62,7 @@ export default function FundAdvisorsMobile() {
           <div className="text-lg">
             <div>HISHAM</div>
           </div>
-          <div className="text-xxs mt-4">
+          <div className="mt-4 text-xxs">
             <div className="w-28">SR. Product Manager</div>
             <div>XSolla</div>
           </div>
