@@ -55,7 +55,7 @@ export default function Flow() {
         </div>
       </div>
 
-      <div className="flex h-screen flex-col items-center py-16 text-secondary">
+      <div className="flex h-screen flex-col items-center py-16 text-secondary md:hidden">
         <div className="inline-flex w-full justify-end px-10">
           <h1 className="text-4xl underline decoration-2 underline-offset-4">Flow</h1>
         </div>

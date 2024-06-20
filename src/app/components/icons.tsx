@@ -113,3 +113,25 @@ export const HorizontalLineArt = (props: SVGProps<SVGSVGElement>) => (
     <rect x="323" width="7" height="5" fill="currentColor" />
   </svg>
 );
+
+export const FundArt = (props: SVGProps<SVGSVGElement>) => (
+  <svg width="594" height="452" viewBox="0 0 594 452" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <circle cx="120.5" cy="192.5" r="45.5" fill="currentColor" />
+    <circle cx="206.5" cy="302.5" r="43" stroke="currentColor" strokeWidth="5" />
+    <circle cx="462.5" cy="192.5" r="45.5" fill="currentColor" />
+    <circle cx="548.5" cy="302.5" r="43" stroke="currentColor" strokeWidth="5" />
+    <circle cx="291.5" cy="192.5" r="45.5" fill="currentColor" />
+    <circle cx="377.5" cy="302.5" r="43" stroke="currentColor" strokeWidth="5" />
+    <circle cx="206.5" cy="89.5" r="45.5" fill="currentColor" />
+    <circle cx="286.5" cy="406.5" r="43" stroke="currentColor" strokeWidth="5" />
+    <circle cx="377.5" cy="89.5" r="45.5" fill="currentColor" />
+    <circle cx="457.5" cy="406.5" r="43" stroke="currentColor" strokeWidth="5" />
+    <path
+      d="M134.741 80.542L138.18 59.2404C142.261 33.9645 161.931 14.0629 187.158 9.68691L213.656 5.09022C231.43 2.00702 249.317 9.89876 259.021 25.1054C275.183 50.4306 311.215 52.9486 330.742 30.1173L337.072 22.7159C349.1 8.65242 367.7 2.04727 385.904 5.37485L401.419 8.21099C429.268 13.3017 449.5 37.5673 449.5 65.8777V85.7962C449.5 107.172 466.828 124.5 488.204 124.5C506.683 124.5 522.585 137.564 526.172 155.691L531.159 180.9C535.645 203.57 526.713 226.8 508.195 240.625L494.211 251.065C476.527 264.268 453.023 266.697 433.012 257.39L404.516 244.135C388.638 236.75 370.326 236.67 354.384 243.917L316.841 260.982C300.769 268.287 282.297 268.143 266.341 260.59L230.124 243.446C215.351 236.453 198.366 235.789 183.093 241.608L138.602 258.556C116.36 267.029 91.2134 261.555 74.5071 244.603L61.5043 231.409C31.8987 201.368 41.7115 150.963 80.4246 134.222L99.3224 126.05C118.122 117.92 131.476 100.762 134.741 80.542Z"
+      stroke="#001EBE"
+      strokeWidth="5"
+      strokeLinejoin="round"
+      strokeDasharray="10 10"
+    />
+  </svg>
+);

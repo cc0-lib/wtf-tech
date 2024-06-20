@@ -21,6 +21,9 @@ const config: Config = {
       "dark-grey": "var(--color-dark-grey)",
     },
     extend: {
+      fontSize: {
+        xxs: "0.5rem",
+      },
       colors: {
         primary: "var(--color-primary)",
         secondary: "var(--color-secondary)",
