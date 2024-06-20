@@ -62,7 +62,7 @@ export default function Partners() {
 
       {/* Mobile */}
       <div className="flex h-screen flex-col justify-center gap-8 bg-secondary text-primary md:hidden">
-        <div className="flex flex-col items-start justify-between gap-4 px-14">
+        <div className="flex flex-col items-start justify-between gap-4 px-10">
           <div className="min-w-[230px] text-justify text-2xl">What are you wating for?</div>
           <p className="text-xxs inline-flex w-full">p/s: registration is limited to first 10 projects</p>
 
