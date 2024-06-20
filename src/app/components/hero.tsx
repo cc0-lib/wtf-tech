@@ -6,7 +6,7 @@ import { BRIEFING_URL, STATUS, STATUS_TEXT } from "../lib/config";
 
 export default function Hero() {
   return (
-    <div className="flex h-dvh w-full snap-start flex-col items-center justify-between px-6 pb-6 pt-8 uppercase md:h-screen md:min-h-screen md:p-14">
+    <div className="flex h-dvh w-full flex-col items-center justify-between px-6 pb-6 pt-8 md:h-screen md:min-h-screen md:p-14">
       {/* Header */}
       <div className="b flex w-full items-center justify-between text-secondary">
         <div className="flex items-center text-sm font-normal md:text-3xl">

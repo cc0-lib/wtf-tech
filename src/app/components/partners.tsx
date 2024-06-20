@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Partners() {
   return (
-    <div className="flex snap-center flex-col items-center justify-center text-5xl uppercase text-secondary">
+    <div className="flex flex-col items-center justify-center text-5xl text-secondary">
       <div className="flex h-screen w-full flex-col">
         <div className="flex h-1/2 w-full flex-col items-center justify-center bg-secondary px-40 text-primary">
           <div className="flex w-full justify-between">
@@ -16,7 +16,7 @@ export default function Partners() {
             <Link
               href="https://karbon.wtf/tech-s01-reg"
               target="_blank"
-              className="inline-flex h-full items-center rounded-full bg-primary px-8 py-2 uppercase text-secondary">
+              className="inline-flex h-full items-center rounded-full bg-primary px-8 py-2 text-secondary">
               Register here
             </Link>
           </div>
@@ -33,14 +33,14 @@ export default function Partners() {
         </div>
       </div>
 
-      <div className="flex h-[50vh] w-full flex-col items-center justify-between px-40 py-24 text-secondary">
+      <div className="flex w-full flex-col items-center justify-between px-40 py-24 text-secondary">
         <h1 className="inline-flex w-full text-5xl">Funded By</h1>
         <div className="flex size-full items-center justify-center">
           <Noggles className="size-36 text-secondary" />
         </div>
       </div>
 
-      <div className="flex w-full flex-col items-center justify-between bg-secondary px-40 py-20 text-primary">
+      <div className="flex w-full flex-col items-center justify-between bg-secondary px-40 py-24 text-primary">
         <div className="flex w-full justify-between text-2xl">
           <div>A Project By</div>
           <KarbonKore className="mt-4 size-24" />

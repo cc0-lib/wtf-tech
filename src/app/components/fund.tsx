@@ -4,7 +4,7 @@ import { Noggles } from "./icons";
 
 export default function Fund() {
   return (
-    <div className="flex h-[80vh] snap-center flex-col items-center justify-center bg-secondary px-16 pb-16 pt-24 text-5xl font-light uppercase text-primary">
+    <div className="flex h-[80vh] flex-col items-center justify-center bg-secondary px-16 pb-16 pt-24 text-5xl font-light text-primary">
       <div className="flex h-full justify-center">
         <div className="pl-16 pt-20">
           <div>TOP 5</div>
