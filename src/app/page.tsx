@@ -8,6 +8,7 @@ import Partners from "./components/partners";
 import Flow from "./components/flow";
 import Fund from "./components/fund";
 import Advisor from "./components/advisor";
+import FundAdvisorsMobile from "./components/funding-advisor";
 
 // TODO Smooth fullpage scroll
 export default function Home() {
@@ -20,8 +21,9 @@ export default function Home() {
       <Criteria />
       <Flow />
       <Fund />
-      <Ticker variant="primary" text="nouns" />
+      <Ticker variant="primary" text="nouns" className="hidden md:flex" />
       <Advisor />
+      <FundAdvisorsMobile />
       <Partners />
     </main>
   );
