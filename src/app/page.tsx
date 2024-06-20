@@ -8,20 +8,22 @@ import Partners from "./components/partners";
 import Flow from "./components/flow";
 import Fund from "./components/fund";
 import Advisor from "./components/advisor";
+import FundAdvisorsMobile from "./components/funding-advisor";
 
 // TODO Smooth fullpage scroll
 export default function Home() {
   return (
-    <main className="h-screen overflow-x-hidden font-supply">
+    <main className="overflow-x-hidden font-supply uppercase">
       <Hero />
       <About />
       <Scope />
-      <Ticker variant="secondary" />
+      <Ticker variant="secondary" className="hidden md:flex" />
       <Criteria />
       <Flow />
       <Fund />
-      <Ticker variant="primary" text="nouns" />
+      <Ticker variant="primary" text="nouns" className="hidden md:flex" />
       <Advisor />
+      <FundAdvisorsMobile />
       <Partners />
     </main>
   );

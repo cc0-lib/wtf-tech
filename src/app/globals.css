@@ -4,8 +4,24 @@
 
 @layer base {
   :root {
-    --background: #001ebe;
+    --color-primary: rgba(0, 30, 190, 1);
+    --color-secondary: rgba(227, 227, 227, 1);
+    --color-semi-grey: rgba(114, 114, 114, 1);
+    --color-dark-grey: rgba(58, 58, 58, 1);
     --font-supply: "Supply", sans-serif;
+  }
+}
+
+@layer utilities {
+  .debug {
+    @apply border-red-500 border;
+  }
+  .hidden-on-mobile {
+    @apply hidden md:flex;
+  }
+
+  .hidden-on-desktop {
+    @apply flex md:hidden;
   }
 }
 
@@ -14,18 +30,4 @@
   src: url("../../public/fonts/PPSupplyMono-Variable.woff");
   font-display: swap;
   descent-override: 0%;
-}
-
-@layer base {
-  body {
-    @apply bg-background;
-  }
-}
-
-.underline-small {
-  text-decoration-thickness: 1px;
-}
-
-.debug {
-  @apply border border-red-500;
 }

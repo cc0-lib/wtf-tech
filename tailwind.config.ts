@@ -9,26 +9,29 @@ const config: Config = {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
     },
     fontFamily: {
       supply: ["var(--font-supply)"],
       chakra: ["var(--font-chakra)"],
     },
+    borderColor: {
+      primary: "var(--color-primary)",
+      secondary: "var(--color-secondary)",
+      "semi-grey": "var(--color-semi-grey)",
+      "dark-grey": "var(--color-dark-grey)",
+    },
     extend: {
+      fontSize: {
+        xxs: "0.5rem",
+      },
       colors: {
-        primary: "#001EBE",
-        secondary: "#E2E2E2",
-        "semi-grey": "#727272",
-        "dark-grey": "#3A3A3A",
+        primary: "var(--color-primary)",
+        secondary: "var(--color-secondary)",
+        "semi-grey": "var(--color-semi-grey)",
+        "dark-grey": "var(--color-dark-grey)",
       },
       backgroundColor: {
-        primary: "#001EBE",
-        secondary: "#E2E2E2",
-        background: "var(--background)",
+        primary: "var(--color-primary)",
       },
     },
     keyframes: {

@@ -3,19 +3,21 @@ import { cn } from "../lib/utils";
 
 export default function Ticker({
   variant,
-  text = `open for registration`,
+  text = "open for registration",
+  className,
 }: {
   variant: "primary" | "secondary";
   text?: string;
+  className?: string;
 }) {
   return (
     <div
       className={cn(
-        "flex p-4 text-4xl uppercase",
+        "flex p-1 text-sm md:p-4 md:text-4xl",
+        className,
         variant === "primary" && "bg-primary text-secondary",
         variant === "secondary" && "bg-secondary text-primary",
-      )}
-    >
+      )}>
       {Array(5)
         .fill(null)
         .map((index) => (
