@@ -9,8 +9,8 @@ export default function Hero() {
     <div className="flex h-dvh w-full flex-col items-center justify-between px-6 pb-6 pt-8 md:h-screen md:min-h-screen md:p-14">
       {/* Header */}
       <div className="b flex w-full items-center justify-between text-secondary">
-        <div className="flex items-center text-sm font-normal md:text-3xl">
-          [WTF TECH S01]<span className="ml-2 text-xs md:ml-10 md:text-xl">By Karbon Kore</span>
+        <div className="flex items-center text-sm font-normal md:text-2xl lg:text-3xl">
+          [WTF TECH S01]<span className="ml-2 text-xs md:ml-5 md:text-xl lg:ml-10 lg:text-2xl">By Karbon Kore</span>
         </div>
         <div className="flex items-center justify-center gap-1 rounded-full border border-secondary px-2 md:gap-4 md:border-2 md:px-6 md:py-2">
           <span className="size-1 rounded-full bg-secondary md:size-3"></span>
@@ -19,14 +19,14 @@ export default function Hero() {
       </div>
 
       {/* Main */}
-      <div className="relative mt-14 flex h-80 flex-col items-center justify-center md:mt-0 md:h-[600px] md:w-[1200px]">
-        <div className="hidden-on-mobile absolute left-0 top-28 rotate-[-4.83deg] rounded-[4px] bg-white/30 px-4 py-2 text-xl text-primary md:block">
+      <div className="relative mt-14 flex h-80 flex-col items-center justify-center border md:mt-0 md:h-[500px] md:w-[100vw] lg:h-[600px] lg:w-[1200px]">
+        <div className="hidden-on-mobile absolute left-0 top-28 rotate-[-4.83deg] rounded-[4px] bg-white/30 px-4 py-2 text-xl text-primary md:left-4 md:top-5">
           BUILD
         </div>
         <div className="hidden-on-mobile absolute left-0 top-96 flex size-14 items-center justify-center rounded-full bg-white/30 text-xl text-primary">
           <Image src="./bracket.svg" height={30} width={30} alt="Bracket" />
         </div>
-        <div className="hidden-on-mobile absolute left-[36rem] top-[14.5rem] rotate-[-4.83deg] rounded-[4px] bg-white/30 px-4 py-2 text-xl text-primary backdrop-blur-lg">
+        <div className="hidden-on-mobile absolute rotate-[-4.83deg] rounded-[4px] bg-white/30 px-4 py-2 text-xl text-primary backdrop-blur-lg md:left-1/2 md:top-1/2 lg:left-[36rem] lg:top-[14.5rem]">
           PUBLIC GOODS
         </div>
         <div className="hidden-on-mobile absolute right-24 top-0 flex size-14 rotate-[20deg] items-center justify-center rounded-full bg-white/30 text-xl text-primary">
@@ -35,8 +35,9 @@ export default function Hero() {
         <div className="hidden-on-mobile absolute right-24 top-[28rem] rotate-[7.05deg] rounded-[4px] bg-white/30 px-4 py-2 text-xl text-primary backdrop-blur-lg">
           HACK
         </div>
+
         <Image
-          className="size-[20rem] sm:size-[50rem]"
+          className="size-[20rem] sm:size-[30rem] md:size-[35rem] lg:size-[40rem]"
           src="/title-s01.svg"
           alt="WTF-TECH S01 Logo"
           width={1000}

@@ -14,7 +14,7 @@
 
 @layer utilities {
   .debug {
-    @apply border-red-500 border;
+    @apply border border-red-500;
   }
   .hidden-on-mobile {
     @apply hidden sm:flex;
