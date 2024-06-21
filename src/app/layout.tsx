@@ -5,19 +5,19 @@ export const metadata: Metadata = {
   title: "WTF-TECH - S01",
   description: "WTF-TECH by Karbon Kore",
   icons: {
-    icon: "/favicon.svg",
+    icon: "/favicon.png",
   },
   openGraph: {
     type: "website",
-    url: "https://tech.karbonko.re",
-    title: "Karbon Kore - WTF-TECH - S01",
-    description: "WTF-TECH Hackathon by Karbon Kore",
+    url: "https://tech.karbon.wtf/s01",
+    title: "WTF-TECH S01",
+    description: "WTF TECH S01 by Karbon Kore",
     images: [
       {
-        url: "http://localhost:3000/og.png",
+        url: "https://tech.karbon.wtf/s01/wtf-tech-og.png",
         width: 800,
         height: 400,
-        alt: "CC0-LIB Community Voting",
+        alt: "WTF TECH S01 by Karbon Kore",
       },
     ],
   },
