@@ -13,9 +13,9 @@ const scopes = [
 export default function Scope() {
   return (
     <Fragment>
-      <div className="hidden h-[50vh] items-center justify-center gap-80 px-40 py-28 text-4xl font-light text-secondary md:flex">
-        <div className="flex h-full flex-col items-start justify-between">
-          <ScopeShape />
+      <div className="hidden h-[50vh] items-center justify-center xl:gap-80 gap-20 py-20 debug xl:px-40 xl:py-28 xl:text-4xl text-xl font-light text-secondary md:flex">
+        <div className="flex h-full flex-col items-start justify-between debug">
+          <ScopeShape className="size-32"/>
           <div className="underline decoration-2 underline-offset-2">
             <div>CHOOSE</div>
             <div>YOUR</div>
