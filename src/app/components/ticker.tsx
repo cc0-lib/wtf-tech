@@ -1,9 +1,10 @@
 import React from "react";
 import { cn } from "../lib/utils";
+import { TICKER_TEXT } from "../lib/config";
 
 export default function Ticker({
   variant,
-  text = "open for registration",
+  text = TICKER_TEXT,
   className,
 }: {
   variant: "primary" | "secondary";

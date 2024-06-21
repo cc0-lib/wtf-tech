@@ -21,7 +21,7 @@ export default function Home() {
       <Criteria />
       <Flow />
       <Fund />
-      <Ticker variant="primary" text="nouns" className="hidden sm:flex" />
+      <Ticker variant="primary" className="hidden sm:flex" />
       <Advisor />
       <FundAdvisorsMobile />
       <Partners />

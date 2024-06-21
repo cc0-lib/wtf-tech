@@ -4,6 +4,7 @@ import { CC0Lib, DevTalk, KarbonKore, NounsBeyondScreen } from "./icons";
 import { Nouns } from "./icons";
 import Link from "next/link";
 import Ticker from "./ticker";
+import { REGISTRATION_URL } from "../lib/config";
 
 export default function Partners() {
   return (
@@ -75,13 +76,13 @@ export default function Partners() {
       </div>
 
       {/* Mobile */}
-      <div className="flex h-screen flex-col justify-center gap-8 bg-secondary text-primary sm:h-auto sm:py-20 md:hidden">
+      <div className="flex flex-col justify-center gap-8 bg-secondary py-20 text-primary md:hidden">
         <div className="flex flex-col items-start justify-between gap-4 px-10 sm:px-16">
           <div className="min-w-[230px] text-justify text-2xl sm:text-3xl">What are you wating for?</div>
           <p className="inline-flex w-full text-xxs sm:text-xs">p/s: registration is limited to first 10 projects</p>
 
           <Link
-            href="https://karbon.wtf/tech-s01-reg"
+            href={REGISTRATION_URL}
             target="_blank"
             className="inline-flex items-center rounded-full bg-primary px-4 py-1 text-sm text-secondary sm:text-base">
             Register here
