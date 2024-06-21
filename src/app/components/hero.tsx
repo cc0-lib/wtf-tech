@@ -229,29 +229,29 @@ export default function Hero() {
 
       <section className="hidden w-full grid-cols-3 flex-col gap-4 font-light md:flex">
         <div className="grid w-full grid-cols-5 text-secondary">
-          <div className=" flex justify-between gap-2">
+          <div className="flex justify-between gap-2">
             <div className="text-sm lg:text-base">SUPPORTED BY</div>
           </div>
-          <div className=" inline-flex items-center justify-start text-sm lg:w-auto lg:text-base">FUNDED BY</div>
-          <div className=" col-span-3 flex items-center justify-end">&lt;/wtf&gt;</div>
+          <div className="inline-flex items-center justify-start text-sm lg:w-auto lg:text-base">FUNDED BY</div>
+          <div className="col-span-3 flex items-center justify-end">&lt;/wtf&gt;</div>
         </div>
 
         <div className="grid w-full grid-cols-5 text-sm text-secondary lg:text-base">
-          <div className=" flex flex-1 items-center justify-between gap-2">
+          <div className="flex flex-1 items-center justify-between gap-2">
             <div className="flex flex-wrap items-center gap-2">
               <NounsBeyondScreen className="h-10 xl:size-12 2xl:size-14" />
-              <CC0Lib className=" size-7 xl:size-10 2xl:size-14" />
-              <DevTalk className=" w-20 xl:w-28 2xl:h-full 2xl:w-36" />
+              <CC0Lib className="size-7 xl:size-10 2xl:size-14" />
+              <DevTalk className="w-20 xl:w-28 2xl:h-full 2xl:w-36" />
             </div>
             {/* <div className="flex h-full items-center justify-start lg:w-auto">
               <Nouns className="size-8 lg:size-10 xl:size-12" />
             </div> */}
           </div>
-          <div className=" flex items-center">
+          <div className="flex items-center">
             <Nouns className="size-8 lg:size-10 xl:size-12" />
           </div>
-          <div className=" inline-flex items-center justify-center">MORE INFO BELOW</div>
-          <h3 className=" col-span-2 inline-flex justify-end">
+          <div className="inline-flex items-center justify-center">MORE INFO BELOW</div>
+          <h3 className="col-span-2 inline-flex justify-end">
             <div className="flex flex-col items-end justify-between">
               <div className="flex w-full items-center justify-end gap-x-6">
                 <div className="flex gap-x-2">

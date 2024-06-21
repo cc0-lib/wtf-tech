@@ -5,7 +5,7 @@ import { FundArt } from "./icons";
 
 export default function FundAdvisorsMobile() {
   return (
-    <div className="flex flex-col bg-secondary text-primary md:hidden">
+    <div className="flex flex-col bg-secondary py-10 text-primary md:hidden">
       <div className="relative h-[300px] w-full">
         <h1 className="mt-4 pr-10 text-end text-2xl underline underline-offset-2">Funding</h1>
         <div className="flex w-full justify-start">
