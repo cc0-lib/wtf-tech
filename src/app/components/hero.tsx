@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { Fragment } from "react";
 import { CC0Lib, DevTalk, KarbonKore, NounsBeyondScreen } from "./icons";
 import { Nouns } from "./icons";
-import { BRIEFING_URL, STATUS, STATUS_TEXT } from "../lib/config";
+import { BRIEFING_URL, REGISTRATION_URL, STATUS, STATUS_TEXT } from "../lib/config";
 
 export default function Hero() {
   return (
@@ -220,7 +220,7 @@ export default function Hero() {
           </svg>
         </div>
         <a
-          href={BRIEFING_URL}
+          href={REGISTRATION_URL}
           target="_blank"
           className="mt-8 rounded-full bg-white px-5 py-1 text-base text-primary md:mt-14 md:px-8 md:py-2 md:text-xl lg:text-2xl xl:text-3xl">
           <h1>{STATUS_TEXT}</h1>

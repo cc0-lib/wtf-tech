@@ -1,10 +1,8 @@
-import Image from "next/image";
 import React, { Fragment } from "react";
 import { CC0Lib, DevTalk, KarbonKore, NounsBeyondScreen } from "./icons";
 import { Nouns } from "./icons";
 import Link from "next/link";
-import Ticker from "./ticker";
-import { REGISTRATION_URL } from "../lib/config";
+import { DEVTALK_DISCORD, NOUNS_MY_DISCORD, REGISTRATION_URL } from "../lib/config";
 
 export default function Partners() {
   return (
@@ -45,16 +43,18 @@ export default function Partners() {
             <div className="my-20 hidden w-full items-center justify-between gap-4 px-20 lg:flex xl:gap-10 xl:px-40 2xl:gap-20 2xl:px-96">
               <NounsBeyondScreen className="size-52" />
               <CC0Lib className="size-32" />
-              <DevTalk className="h-full w-96" />
+              <a href={DEVTALK_DISCORD} className="h-full w-96" target="_blank">
+                <DevTalk className="size-full" />
+              </a>
             </div>
           </div>
         </div>
 
         <div className="flex w-full flex-col items-center justify-between px-20 py-16 text-secondary lg:px-40 lg:py-24">
           <h1 className="inline-flex w-full text-4xl lg:text-5xl">Funded By</h1>
-          <div className="flex size-full items-center justify-center">
+          <a href={NOUNS_MY_DISCORD} target="_blank" className="flex size-full items-center justify-center">
             <Nouns className="size-28 text-secondary xl:size-36" />
-          </div>
+          </a>
         </div>
 
         <div className="flex w-full flex-col items-center justify-between bg-secondary px-20 py-16 text-primary lg:px-40 lg:py-24">
@@ -101,9 +101,9 @@ export default function Partners() {
 
           <div className="flex flex-col">
             <div className="text-xs sm:text-sm">Funded By</div>
-            <div className="flex items-center justify-center">
+            <a href={NOUNS_MY_DISCORD} className="flex items-center justify-center">
               <Nouns className="size-14" />
-            </div>
+            </a>
           </div>
 
           <div className="flex flex-col">
