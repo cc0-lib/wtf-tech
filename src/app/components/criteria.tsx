@@ -65,7 +65,7 @@ export default function Criteria() {
 
       {/*  */}
       <div className="flex h-[50vh] flex-col items-center justify-center bg-secondary px-10 text-primary md:hidden">
-        <h1 className="inline-flex w-full justify-end text-xl underline underline-offset-2 sm:text-4xl">Criteria</h1>
+        <h1 className="inline-flex w-full justify-end text-xl underline underline-offset-2 sm:text-2xl">Criteria</h1>
 
         <div className="flex h-2/3 w-full flex-col justify-center gap-4">
           <div className="flex w-full justify-start">

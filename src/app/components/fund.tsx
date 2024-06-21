@@ -1,6 +1,6 @@
 import React, { SVGProps } from "react";
 import Image from "next/image";
-import { Noggles } from "./icons";
+import { Nouns } from "./icons";
 
 export default function Fund() {
   return (
@@ -31,7 +31,7 @@ export default function Fund() {
         <div className="text-primar inline-flex h-14 items-center gap-4 rounded-full border-2 bg-secondary px-8 text-3xl">
           Funded By
           <span>
-            <Noggles className="size-16" />
+            <Nouns className="size-16" />
           </span>
         </div>
       </div>

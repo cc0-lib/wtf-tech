@@ -33,7 +33,7 @@ export default function FundAdvisorsMobile() {
         </div>
       </div>
 
-      <div className="debug relative flex h-[30rem] w-full">
+      <div className="relative flex h-[30rem] w-full">
         <div className="absolute -left-10 flex h-[16.875rem] w-[11.25rem] flex-col items-start justify-end rounded-r-lg bg-primary pb-3 pl-2 text-secondary sm:-left-5 sm:h-[19rem] sm:w-[13rem]">
           <div className="relative left-5">
             <div className="text-lg sm:text-xl">
