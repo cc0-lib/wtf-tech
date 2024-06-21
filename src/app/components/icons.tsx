@@ -37,7 +37,7 @@ export const DevTalk = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export const Noggles = (props: SVGProps<SVGSVGElement>) => (
+export const Nouns = (props: SVGProps<SVGSVGElement>) => (
   <svg width="262" height="98" viewBox="0 0 262 98" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <g clipPath="url(#clip0_542_2952)">
       <path

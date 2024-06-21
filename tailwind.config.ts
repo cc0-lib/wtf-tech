@@ -14,13 +14,13 @@ const config: Config = {
       supply: ["var(--font-supply)"],
       chakra: ["var(--font-chakra)"],
     },
-    borderColor: {
-      primary: "var(--color-primary)",
-      secondary: "var(--color-secondary)",
-      "semi-grey": "var(--color-semi-grey)",
-      "dark-grey": "var(--color-dark-grey)",
-    },
     extend: {
+      borderColor: {
+        primary: "var(--color-primary)",
+        secondary: "var(--color-secondary)",
+        "semi-grey": "var(--color-semi-grey)",
+        "dark-grey": "var(--color-dark-grey)",
+      },
       fontSize: {
         xxs: "0.5rem",
       },

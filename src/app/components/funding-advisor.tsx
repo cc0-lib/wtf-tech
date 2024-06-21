@@ -9,7 +9,7 @@ export default function FundAdvisorsMobile() {
       <div className="relative h-[300px] w-full">
         <h1 className="mt-4 pr-10 text-end text-2xl underline underline-offset-2">Funding</h1>
         <div className="flex w-full justify-start">
-          <FundArt className="ml-4 inline-flex size-44" />
+          <FundArt className="ml-4 inline-flex size-44 sm:translate-x-2/3" />
         </div>
 
         <div className="relative">
@@ -33,36 +33,36 @@ export default function FundAdvisorsMobile() {
         </div>
       </div>
 
-      <div className="relative flex h-[480px] w-full">
-        <div className="absolute -left-4 flex h-[270px] w-[180px] flex-col items-start justify-end rounded-r-lg bg-primary pb-3 pl-2 text-secondary">
+      <div className="relative flex h-[30rem] w-full">
+        <div className="absolute -left-10 flex h-[16.875rem] w-[11.25rem] flex-col items-start justify-end rounded-r-lg bg-primary pb-3 pl-2 text-secondary sm:-left-5 sm:h-[19rem] sm:w-[13rem]">
           <div className="relative left-5">
-            <div className="text-lg">
+            <div className="text-lg sm:text-xl">
               <div>KARBON</div>
               <div>KORE</div>
             </div>
-            <div className="text-xxs mt-4">
+            <div className="mt-4 text-xxs sm:text-xs">
               <div>Team</div>
               <div>Karbon Kore</div>
             </div>
           </div>
         </div>
 
-        <div className="absolute left-1/2 top-1/2 z-20 flex h-[270px] w-[180px] -translate-x-1/2 -translate-y-1/2 transform flex-col items-start justify-end rounded-lg border border-primary bg-secondary p-4 text-primary">
-          <div className="text-lg">
+        <div className="absolute left-1/2 top-1/2 z-20 flex h-[270px] w-[180px] -translate-x-1/2 -translate-y-1/2 transform flex-col items-start justify-end rounded-lg border border-primary bg-secondary p-4 text-primary sm:h-[19rem] sm:w-[13rem]">
+          <div className="text-lg sm:text-xl">
             <div>TEKONG</div>
           </div>
 
-          <div className="text-xxs mt-4">
+          <div className="mt-4 text-xxs sm:text-xs">
             <div>CEO</div>
             <div>AMANZ</div>
           </div>
         </div>
 
-        <div className="absolute -right-10 bottom-0 flex h-[270px] w-[180px] flex-col items-start justify-end rounded-l-lg bg-primary p-3 pl-3 text-secondary">
-          <div className="text-lg">
+        <div className="absolute -right-5 bottom-0 flex h-[270px] w-[180px] flex-col items-start justify-end rounded-l-lg bg-primary p-3 pl-3 text-secondary sm:-right-5 sm:h-[19rem] sm:w-[13rem]">
+          <div className="text-lg sm:text-xl">
             <div>HISHAM</div>
           </div>
-          <div className="text-xxs mt-4">
+          <div className="mt-4 text-xxs sm:text-xs">
             <div className="w-28">SR. Product Manager</div>
             <div>XSolla</div>
           </div>

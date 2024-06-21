@@ -17,11 +17,11 @@ export default function Home() {
       <Hero />
       <About />
       <Scope />
-      <Ticker variant="secondary" className="hidden md:flex" />
+      <Ticker variant="secondary" className="hidden sm:flex" />
       <Criteria />
       <Flow />
       <Fund />
-      <Ticker variant="primary" text="nouns" className="hidden md:flex" />
+      <Ticker variant="primary" text="nouns" className="hidden sm:flex" />
       <Advisor />
       <FundAdvisorsMobile />
       <Partners />
