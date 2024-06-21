@@ -9,7 +9,7 @@ export default function Fund() {
         FUNDING
       </div>
 
-      <div className="relative flex h-full w-full items-center justify-center">
+      <div className="relative flex size-full items-center justify-center">
         <div className="absolute left-0 top-0 text-2xl lg:text-3xl 2xl:left-20 2xl:text-5xl">
           <div>TOP 5</div>
           <ul className="list-inside list-disc xl:mt-4 xl:pl-10">

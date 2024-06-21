@@ -34,7 +34,7 @@ export default function FundAdvisorsMobile() {
       </div>
 
       <div className="relative flex h-[30rem] w-full">
-        <div className="absolute -left-10 flex h-[16.875rem] w-[11.25rem] flex-col items-start justify-end rounded-r-lg bg-primary pb-3 pl-2 text-secondary sm:-left-5 sm:h-[19rem] sm:w-[13rem]">
+        <div className="absolute -left-10 flex h-[16.875rem] w-[11.25rem] flex-col items-start justify-end rounded-r-lg bg-primary pb-3 pl-2 text-secondary sm:-left-5 sm:h-[19rem] sm:w-52">
           <div className="relative left-10">
             <div className="text-lg sm:text-xl">
               <div>KARBON</div>
@@ -47,7 +47,7 @@ export default function FundAdvisorsMobile() {
           </div>
         </div>
 
-        <div className="absolute left-1/2 top-1/2 z-20 flex h-[270px] w-[180px] -translate-x-1/2 -translate-y-1/2 transform flex-col items-start justify-end rounded-lg border border-primary bg-secondary p-4 text-primary sm:h-[19rem] sm:w-[13rem]">
+        <div className="absolute left-1/2 top-1/2 z-20 flex h-[270px] w-[180px] -translate-x-1/2 -translate-y-1/2 flex-col items-start justify-end rounded-lg border border-primary bg-secondary p-4 text-primary sm:h-[19rem] sm:w-52">
           <div className="text-lg sm:text-xl">
             <div>TEKONG</div>
           </div>
@@ -58,7 +58,7 @@ export default function FundAdvisorsMobile() {
           </div>
         </div>
 
-        <div className="absolute -right-5 bottom-0 flex h-[270px] w-[180px] flex-col items-start justify-end rounded-l-lg bg-primary p-3 pl-3 text-secondary sm:-right-5 sm:h-[19rem] sm:w-[13rem]">
+        <div className="absolute -right-5 bottom-0 flex h-[270px] w-[180px] flex-col items-start justify-end rounded-l-lg bg-primary p-3 text-secondary sm:-right-5 sm:h-[19rem] sm:w-52">
           <div className="text-lg sm:text-xl">
             <div>HISHAM</div>
           </div>

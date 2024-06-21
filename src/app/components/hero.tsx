@@ -172,7 +172,7 @@ export default function Hero() {
                 height="135.02"
                 filterUnits="userSpaceOnUse"
                 colorInterpolationFilters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur in="BackgroundImageFix" stdDeviation="15" />
                 <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_0_1" />
                 <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_0_1" result="shape" />
@@ -185,7 +185,7 @@ export default function Hero() {
                 height="126.858"
                 filterUnits="userSpaceOnUse"
                 colorInterpolationFilters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur in="BackgroundImageFix" stdDeviation="15" />
                 <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_0_1" />
                 <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_0_1" result="shape" />
@@ -198,7 +198,7 @@ export default function Hero() {
                 height="124.623"
                 filterUnits="userSpaceOnUse"
                 colorInterpolationFilters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur in="BackgroundImageFix" stdDeviation="15" />
                 <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_0_1" />
                 <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_0_1" result="shape" />
@@ -211,7 +211,7 @@ export default function Hero() {
                 height="133.604"
                 filterUnits="userSpaceOnUse"
                 colorInterpolationFilters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur in="BackgroundImageFix" stdDeviation="15" />
                 <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_0_1" />
                 <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_0_1" result="shape" />

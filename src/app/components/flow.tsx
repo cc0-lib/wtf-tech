@@ -62,7 +62,7 @@ export default function Flow() {
         </div>
 
         <div className="flex flex-1 px-6">
-          <img src="./flow-diagram-mobile.svg" alt="" width={700} height={1000} className="object-contain" />
+          <Image src="./flow-diagram-mobile.svg" alt="" width={700} height={1000} className="object-contain" />
         </div>
       </div>
     </Fragment>
