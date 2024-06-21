@@ -9,7 +9,7 @@ export default function FundAdvisorsMobile() {
       <div className="relative h-[300px] w-full">
         <h1 className="mt-4 pr-10 text-end text-2xl underline underline-offset-2">Funding</h1>
         <div className="flex w-full justify-start">
-          <FundArt className="ml-4 sm:translate-x-2/3 inline-flex size-44" />
+          <FundArt className="ml-4 inline-flex size-44 sm:translate-x-2/3" />
         </div>
 
         <div className="relative">

@@ -13,17 +13,17 @@ const scopes = [
 export default function Scope() {
   return (
     <Fragment>
-      <div className="hidden h-[50vh] items-center justify-center xl:gap-80 gap-20 py-20 debug xl:px-40 xl:py-28 xl:text-4xl text-xl font-light text-secondary md:flex">
-        <div className="flex h-full flex-col items-start justify-between debug">
-          <ScopeShape className="size-32"/>
-          <div className="underline decoration-2 underline-offset-2">
+      <div className="hidden h-[50vh] items-center justify-center gap-20 py-24 text-xl font-light text-secondary md:flex lg:py-20 xl:px-40 xl:py-28 xl:text-4xl 2xl:gap-80">
+        <div className="flex h-full flex-col items-start justify-center gap-2 xl:gap-8">
+          <ScopeShape className="size-20 lg:size-28 xl:size-20" />
+          <div className="text-2xl underline decoration-2 underline-offset-4">
             <div>CHOOSE</div>
             <div>YOUR</div>
             <div>SCOPE</div>
           </div>
         </div>
 
-        <div className="flex h-full flex-col justify-between">
+        <div className="flex h-full flex-col justify-center text-2xl lg:text-3xl xl:text-4xl">
           {scopes.map((item, index) => (
             <div key={index} className="inline-flex gap-x-4">
               <span>[ ]</span>

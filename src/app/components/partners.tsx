@@ -88,7 +88,7 @@ export default function Partners() {
           </Link>
         </div>
 
-        <div className="mt-20 flex flex-col justify-start space-y-8 px-10 sm:mt-10  sm:px-16">
+        <div className="mt-20 flex flex-col justify-start space-y-8 px-10 sm:mt-10 sm:px-16">
           <div className="flex flex-col">
             <div className="text-xs sm:text-sm">Supported By</div>
             <div className="mt-2 flex items-center justify-center gap-5">
