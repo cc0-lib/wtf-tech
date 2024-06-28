@@ -4,7 +4,7 @@ import { cn } from "../lib/utils";
 
 const criterias = [
   {
-    name: "Great UX/UX",
+    name: "Great UI/UX",
     icon: "./pallete.svg",
   },
   {
