@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { CC0Lib, DevTalk, KarbonKore, NounsBeyondScreen } from "./icons";
 import { Nouns } from "./icons";
 import Link from "next/link";
-import { DEVTALK_DISCORD, NOUNS_MY_DISCORD, REGISTRATION_URL } from "../lib/config";
+import { DEVTALK_DISCORD, NOUNS_MY_DISCORD, REGISTRATION_URL, STATUS, STATUS_TEXT } from "../lib/config";
 
 export default function Partners() {
   return (
@@ -12,25 +12,25 @@ export default function Partners() {
           <div className="flex h-1/2 w-full flex-col items-center justify-center bg-secondary px-20 text-primary lg:px-40">
             <div className="flex w-full flex-col justify-between xl:flex-row">
               <div className="h-full text-4xl font-medium lg:text-5xl">
-                <div className="w-[400px] text-justify lg:w-[500px]">What are you waiting for?</div>
+                <div className="w-[400px] text-justify lg:w-[500px]">current phase: {STATUS}</div>
               </div>
               <Link
-                href="https://karbon.wtf/tech-s01-reg"
+                href={REGISTRATION_URL}
                 target="_blank"
                 className="hidden items-center rounded-full bg-primary px-8 py-2 text-xl text-secondary lg:h-full lg:text-4xl xl:inline-flex">
-                Register here
+                {STATUS_TEXT}
               </Link>
 
               <div className="xl:hidden">
                 <Link
-                  href="https://karbon.wtf/tech-s01-reg"
+                  href={REGISTRATION_URL}
                   target="_blank"
                   className="items-center rounded-full bg-primary px-8 py-3 text-2xl text-secondary lg:text-3xl">
-                  Register here
+                  {STATUS_TEXT}
                 </Link>
               </div>
             </div>
-            <p className="mt-4 inline-flex w-full text-base">p/s: registration is limited to first 10 projects</p>
+            <p className="mt-4 inline-flex w-full text-base">participant will need to build and submit their project</p>
           </div>
 
           <div className="flex h-1/2 w-full flex-col items-center justify-center bg-secondary px-20 text-primary lg:px-40">
@@ -85,7 +85,7 @@ export default function Partners() {
             href={REGISTRATION_URL}
             target="_blank"
             className="inline-flex items-center rounded-full bg-primary px-4 py-1 text-sm text-secondary sm:text-base">
-            Register here
+            {STATUS_TEXT}
           </Link>
         </div>
 
